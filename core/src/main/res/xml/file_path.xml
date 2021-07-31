@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 这个下载路径也不可以修改，必须为GDTDOWNLOAD(腾讯广告) -->
+    <external-cache-path
+        name="gdt_sdk_download_path1"
+        path="com_qq_e_download" />
+    <cache-path
+        name="gdt_sdk_download_path2"
+        path="com_qq_e_download" />
+
+    <!--为了适配所有路径可以设置 path = "." -->
+    <external-path name="tt_external_root" path="." />
+    <external-path name="tt_external_download" path="Download" />
+    <external-files-path name="tt_external_files_download" path="Download" />
+    <files-path name="tt_internal_file_download" path="Download" />
+    <cache-path name="tt_internal_cache_download" path="Download" />
+
+    <!--default-->
+    <root-path name="root-path" path="." />
+    <files-path name="files-path" path="." />
+    <cache-path name="cache-path" path="." />
+    <external-path name="external_storage_root" path="." />
+    <external-files-path name="external_file_path" path="." />
+    <external-cache-path name="external_cache_path" path="." />
+
+</paths>
